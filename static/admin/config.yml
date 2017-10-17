@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: scottsandersdev/personalsite-rev
+  branch: master # Branch to update
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "Home"
+    label: "Home Section"
+    folder: "static/content/home"
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Intro", name: "subtitle", widget: "text"}
+      - {label: "Section 1", name: "sec1", widget: "markdown"}
