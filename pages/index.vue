@@ -86,7 +86,7 @@
                 <h1 class="wow fadeIn">For a little light reading - download my resume.... Then ... let me know how we can work together!
                 </h1>
         <div class="boxWrap cf">
-            <a class="wow fadeIn box download" href="img/Resume_Scott_Sanders.pdf" target="_blank" data-wow-duration="0.25s" data-wow-delay="0.35s" ><h3>download</h3></a>
+            <a class="wow fadeIn box download" href="/Resume_Scott_Sanders.pdf" target="_blank" data-wow-duration="0.25s" data-wow-delay="0.35s" ><h3>download</h3></a>
         </div>
       </div>
     </div>
