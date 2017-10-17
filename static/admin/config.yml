@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: scottsandersdev/personalsite-rev
+  repo: scottsandersdev/ssdev-nuxt
   branch: master # Branch to update
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
