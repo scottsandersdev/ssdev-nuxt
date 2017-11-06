@@ -34,10 +34,6 @@ module.exports = {
     ** Run ESLINT on save
     */
     extend (config, ctx) {
-      config.module.rules.push({
-        test: /\.md$/,
-        loaders: ['markdown-with-front-matter-loader']
-      })
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
